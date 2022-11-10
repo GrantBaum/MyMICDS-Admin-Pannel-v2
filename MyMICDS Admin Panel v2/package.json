@@ -1,0 +1,19 @@
+{
+  "name": "mymicds-admin-panel-v2",
+  "version": "1.0.0",
+  "description": "A new version of the same admin pannel written in pug.js and a RESTful express API",
+  "main": "index.js",
+  "scripts": {
+    "watch": "nodemon index.js -e js,pug,css",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "MyMICDS"
+  ],
+  "author": "Grant Baumstark (@GrantBaum)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "pug": "^3.0.2"
+  }
+}

@@ -1,0 +1,108 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.navbar h2{
+    padding: 0px 10px;
+    text-align: left;
+    text-decoration: underline;
+
+}
+.navbar {
+	background-color: darkred;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.nav_links {
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	padding: 15px;
+	font-weight: bold;
+}
+.nav_links:hover {
+	color: black;
+	background-color: white;
+}
+.shutdown {
+	padding: 10px 20px;
+    background-color: darkred;
+    border: 0px;
+    color: #fff;
+	font-size: 50px;
+	margin: 0;
+	position: absolute;
+	top: 87%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.restart {
+	padding: 10px 20px;
+    background-color: darkred;
+    border: 0px;
+    color: #fff;
+	font-size: 150px;
+	margin: 0;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	-ms-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+}
+.restart:hover
+{
+	background-color: #fff;
+    border: 1px solid darkred;
+    color: darkred;
+}
+.shutdown:hover
+{
+	background-color: #fff;
+    border: 1px solid darkred;
+    color: darkred;
+}
+/* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+	width: 100%; /* Full width */
+	padding: 12px; /* Some padding */ 
+	border: 1px solid #ccc; /* Gray border */
+	border-radius: 4px; /* Rounded borders */
+	box-sizing: border-box; /* Make sure that padding and width stays in place */
+	margin-top: 6px; /* Add a top margin */
+	margin-bottom: 16px; /* Bottom margin */
+	resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+  }
+  
+
+  .search {
+	height: 44px;
+	width: 477px;
+	line-height: 44px;
+	border: none;
+	border-radius: 2px;
+	box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+	margin-bottom: 30px;
+	font: 16px arial,sans-serif;
+	padding-left: 17px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-right: 10px;
+  }
+  .search:hover, .search:focus {
+	outline: none;
+	box-shadow: 0 3px 8px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  }
+  .HomeHeader {
+	text-align: center;
+	text-decoration: underline;
+  }
+  .logoutBtn{
+    position:fixed;
+    right:10px;
+    bottom:5px;
+ }
